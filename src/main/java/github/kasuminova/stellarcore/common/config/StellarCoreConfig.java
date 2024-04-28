@@ -155,7 +155,7 @@ public class StellarCoreConfig {
             @Config.RequiresWorldRestart
             @Config.Name("PlayerAttributeMapCrashFixes")
             public boolean playerAttributeMap = true;
-            
+
             @Config.Name("ContainerJournalFixes")
             public boolean containerJournal = true;
 
@@ -172,7 +172,7 @@ public class StellarCoreConfig {
 
             @Config.Name("ContainerInventoryItemFixes")
             public boolean containerInventoryItem = true;
-            
+
             @Config.Name("TileInventoryFixes")
             public boolean tileInventory = true;
 
@@ -198,12 +198,12 @@ public class StellarCoreConfig {
             public boolean cachedItemConduit = true;
 
         }
-        
+
         public static class ExtraBotany {
-            
+
             @Config.Name("TileManaLiquefactionFixes")
             public boolean tileManaLiquefaction = true;
-            
+
         }
 
         public static class FluxNetworks {
@@ -297,7 +297,7 @@ public class StellarCoreConfig {
             public boolean fixFluidDuplicate = true;
 
         }
-        
+
         public static class ThermalExpansion {
 
             @Config.Name("ContainerSatchelFilterFixes")
@@ -535,7 +535,7 @@ public class StellarCoreConfig {
         public boolean enableTitle = false;
 
         @Config.Name("TitleUseHitokotoAPI")
-        public boolean hitokoto = true;
+        public boolean hitokoto = false;
 
         @Config.Name("CustomGameTitle")
         public String title = "Minecraft 1.12.2";
